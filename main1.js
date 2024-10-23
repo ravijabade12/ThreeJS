@@ -30,7 +30,7 @@ rgbeLoader.load('https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/zwartkops_
 });
 
 const loader = new GLTFLoader();
-loader.load('./wooden_box.glb', function(gltf) {
+loader.load('../wooden_box.glb', function(gltf) {
     gltf.scene.position.y = -1.8;
     scene.add(gltf.scene);
 });
